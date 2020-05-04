@@ -2242,6 +2242,32 @@ select {
   .large-flex-dir-column-reverse {
     flex-direction: column-reverse; } }
 
+.label {
+  display: inline-block;
+  padding: 0.33333rem 0.5rem;
+  border-radius: 0;
+  font-size: 0.8rem;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: default;
+  background: #4971b0;
+  color: #fefefe; }
+  .label.primary {
+    background: #4971b0;
+    color: #fefefe; }
+  .label.secondary {
+    background: #3e3e3e;
+    color: #fefefe; }
+  .label.success {
+    background: #3adb76;
+    color: #fefefe; }
+  .label.warning {
+    background: #ffae00;
+    color: #fefefe; }
+  .label.alert {
+    background: #ec5840;
+    color: #fefefe; }
+
 .pagination {
   margin-left: 0;
   margin-bottom: 1rem; }

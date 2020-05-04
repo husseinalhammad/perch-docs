@@ -4,6 +4,8 @@ nav_groups:
   - primary
 ---
 
+{{> tag label='namespace' value='perch:content' }}
+
 Displays a content region on the page. If a region with the specified key doesn't exist, one is created.
 
 Creating an editable region with `perch_content` is the basis of editing content with Perch.
